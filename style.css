@@ -5,11 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
 section{
-    display: flex;
+    
     margin-bottom: 120px;
 }
 .half-width{
@@ -33,4 +36,21 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.flexible-container{
+    display: flex;
+}
+.experience-level{
+    box-shadow: 10px 10px 40px grey;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    width: 40%;
+    border-radius: 3px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
