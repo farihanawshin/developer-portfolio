@@ -54,3 +54,18 @@ section{
     background-repeat: no-repeat;
     background-position: left;
 }
+#pro-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 2;
+
+}
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, red);
+    border-image-slice: 2;
+
+}
+footer p{
+    text-align: center;
+}
